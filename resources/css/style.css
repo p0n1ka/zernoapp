@@ -1,1 +1,60 @@
-
+html {
+  font-family: helvetica;
+  font-size: 18px;
+  color: white;
+}
+/*navigation*/
+.navigation {
+  background-color: black;
+  opacity: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2.5rem;
+  opacity: 0.6;
+}
+.navigation_list {
+  color: white;
+}
+.navigation_list a {
+  color: white;
+}
+/*hero_header*/
+.hero_header {
+  background-image: url("../images/wheat-field.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.navigation img {
+  height: 2rem;
+  width: 4rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+.sellorbuy {
+  background-color: black;
+  height: 10rem;
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sellorbuy p {
+  opacity: 1;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
